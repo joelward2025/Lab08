@@ -10,10 +10,11 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Chair(legWidth: 20, legHeight: 150, seatLength: 200, seatThickness: 100)
+                .fill(.black)
+            
+            Chair(legWidth: 10, legHeight: 150, seatLength: 150, seatThickness: 30)
+                .fill(.black)
         }
         .padding()
     }

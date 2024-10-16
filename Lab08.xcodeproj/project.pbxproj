@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6097983C2CC0330200AA44AD /* Chair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6097983B2CC0330200AA44AD /* Chair.swift */; };
 		60D39B562CB99FBD000BC9E2 /* Lab08App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D39B552CB99FBD000BC9E2 /* Lab08App.swift */; };
 		60D39B582CB99FBD000BC9E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D39B572CB99FBD000BC9E2 /* ContentView.swift */; };
 		60D39B5A2CB99FBF000BC9E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60D39B592CB99FBF000BC9E2 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6097983B2CC0330200AA44AD /* Chair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chair.swift; sourceTree = "<group>"; };
 		60D39B522CB99FBD000BC9E2 /* Lab08.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lab08.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60D39B552CB99FBD000BC9E2 /* Lab08App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab08App.swift; sourceTree = "<group>"; };
 		60D39B572CB99FBD000BC9E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 				60D39B572CB99FBD000BC9E2 /* ContentView.swift */,
 				60D39B592CB99FBF000BC9E2 /* Assets.xcassets */,
 				60D39B5B2CB99FBF000BC9E2 /* Preview Content */,
+				6097983B2CC0330200AA44AD /* Chair.swift */,
 			);
 			path = Lab08;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6097983C2CC0330200AA44AD /* Chair.swift in Sources */,
 				60D39B582CB99FBD000BC9E2 /* ContentView.swift in Sources */,
 				60D39B562CB99FBD000BC9E2 /* Lab08App.swift in Sources */,
 			);
